@@ -1,0 +1,28 @@
+<div class="row-layout row">
+  <div class="row-layout_1 row">
+    <div class="column-layout column">
+      <h6 class="title">Search Locations</h6>
+      <p [igxToggleAction]="dropDown" class="text">Click here to search nearby spots... </p>
+      <igx-drop-down height="max-content" #dropDown class="drop-down">
+        <igx-drop-down-item [disabled]="false" [isHeader]="false" routerLink="/in-app/kraken-stand-up">
+          Kracken Stand-Up 
+        </igx-drop-down-item>
+        <igx-drop-down-item [disabled]="false" [isHeader]="false">
+          Bowling 321
+        </igx-drop-down-item>
+        <igx-drop-down-item [disabled]="false" [isHeader]="false">
+          Axe House
+        </igx-drop-down-item>
+        <igx-drop-down-item [disabled]="false" [isHeader]="false">
+          Bard's Bar
+        </igx-drop-down-item>
+        <igx-drop-down-item [disabled]="false" [isHeader]="false">
+          Mama's Pizza
+        </igx-drop-down-item>
+        <igx-drop-down-item [disabled]="false" [isHeader]="false">
+          Arr Arcade
+        </igx-drop-down-item>
+      </igx-drop-down>
+    </div>
+  </div>
+</div>

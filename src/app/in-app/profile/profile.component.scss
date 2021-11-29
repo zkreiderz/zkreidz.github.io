@@ -1,0 +1,89 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-layout {
+  position: sticky;
+  width: 800px;
+  overflow: auto;
+  padding: 24px;
+  background-color: var(--igx-grays-100);
+  z-index: 1;
+  height: 100%;
+  flex-shrink: 0;
+  min-width: 50px;
+  min-height: 50px;
+  align-items: stretch;
+}
+.row-layout {
+  width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  position: relative;
+  height: 100%;
+  flex-shrink: 0;
+  min-height: 50px;
+  align-items: stretch;
+}
+.row-layout_1 {
+  width: 75%;
+  height: 100%;
+  flex-shrink: 0;
+  min-width: 50px;
+  min-height: 50px;
+  align-items: stretch;
+}
+.column-layout_1 {
+  min-height: max-content;
+  margin: 0 0 32px;
+  min-width: 50px;
+  align-items: stretch;
+}
+.form {
+  margin: 60px;
+  max-width: 500px;
+  flex-shrink: 0;
+  min-width: 50px;
+  min-height: 50px;
+  align-items: stretch;
+}
+.column-layout_2 {
+  position: relative;
+  margin: 0 0 32px;
+  min-width: 50px;
+  min-height: 50px;
+  align-items: stretch;
+}
+.content {
+  margin: 0 0 16px;
+  height: max-content;
+  min-width: min-content;
+  white-space: pre-wrap;
+}
+.switch {
+  width: max-content;
+  height: max-content;
+}
+.input-group {
+  margin: 0 0 24px;
+  width: 356px;
+  min-width: min-content;
+  height: max-content;
+}
+.list {
+  height: auto;
+  min-width: max-content;
+}
+.list-item {
+  min-width: 0;
+  min-height: 0;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

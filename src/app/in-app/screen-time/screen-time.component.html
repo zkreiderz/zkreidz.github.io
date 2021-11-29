@@ -1,0 +1,26 @@
+<div class="row-layout row">
+  <div class="row-layout_1 row">
+    <div class="column-layout column">
+      <h6 class="content">Screen Time</h6>
+      <div class="form column">
+        <div class="column-layout_1 column">
+          <div class="column-layout_2 column">
+            <p class="igx-typography__body-2 content">Please, enter your screen tiume preferences</p>
+          </div>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Max screen time</label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Max screen time per app</label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+        </div>
+      </div>
+      <button igxButton="fab" igxButtonBackground="var(--igx-primary-500)" type="fab" [disabled]="false" routerLink="/in-app/app-tracker" class="floating-action-button">
+        <igx-icon>add</igx-icon>
+      </button>
+      <p class="text">                                                   Open App Tracker</p>
+    </div>
+  </div>
+</div>

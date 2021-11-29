@@ -1,0 +1,29 @@
+<div class="row-layout row">
+  <div class="row-layout_1 row">
+    <div class="column-layout column">
+      <h6 class="content">Add Friend</h6>
+      <div class="form column">
+        <div class="column-layout_1 column">
+          <div class="column-layout_2 column">
+            <p class="igx-typography__body-2 content">Please, enter your friends information. </p>
+          </div>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Friend Name </label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Friend Code </label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+        </div>
+      </div>
+      <button igxButton="fab" igxButtonBackground="var(--igx-primary-500)" type="fab" [disabled]="false" routerLink="/in-app/friends" class="floating-action-button">
+        <igx-icon>add</igx-icon>
+      </button>
+      <igx-avatar src="/assets/download.png" [roundShape]="true" size="small" class="avatar"></igx-avatar>
+      <igx-avatar src="/assets/65553.png" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+      <p class="text">                                                   Add Friend</p>
+      <igx-avatar src="/assets/download (7).png" [roundShape]="true" size="small" class="avatar_2"></igx-avatar>
+    </div>
+  </div>
+</div>

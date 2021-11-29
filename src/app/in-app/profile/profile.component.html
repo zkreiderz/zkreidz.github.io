@@ -1,0 +1,36 @@
+<div class="row-layout row">
+  <div class="row-layout_1 row">
+    <div class="column-layout column">
+      <h6 class="content">Profile</h6>
+      <div class="form column">
+        <div class="column-layout_1 column">
+          <div class="column-layout_2 column">
+            <p class="igx-typography__body-2 content">Please, fill out your information. </p>
+          </div>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">First Name</label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Last Name</label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Phone Number</label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+          <igx-input-group placeholder type="border" class="input-group">
+            <label igxLabel for="inputField">Home Address</label>
+            <input type="text" name="inputField" [required]="false" [disabled]="false" igxInput />
+          </igx-input-group>
+          <igx-list class="list">
+            <igx-list-item class="list-item">
+              <igx-switch labelPosition="after" [checked]="false" [disabled]="false" igxListLine class="switch">Off/On</igx-switch>
+              <h4 igxListLineTitle>Update with current location?</h4>
+            </igx-list-item>
+          </igx-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
